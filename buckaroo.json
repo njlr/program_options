@@ -1,0 +1,11 @@
+{
+  "name": "boost-program-options",
+  "dependencies": {
+    "boost-config": "1.63.0",
+    "boost-any": "1.63.0",
+    "boost-function": "1.63.0",
+    "boost-lexical-cast": "1.63.0",
+    "boost-math": "1.63.0",
+    "boost-tokenizer": "1.63.0"
+  }
+}

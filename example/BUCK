@@ -1,0 +1,19 @@
+cxx_binary(
+  name = 'custom_syntax',
+  srcs = [
+    'custom_syntax.cpp',
+  ],
+  deps = [
+    '//:boost-program-options',
+  ],
+)
+
+cxx_binary(
+  name = 'real',
+  srcs = [
+    'real.cpp',
+  ],
+  deps = [
+    '//:boost-program-options',
+  ],
+)
